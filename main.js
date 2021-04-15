@@ -426,7 +426,7 @@ window.addEventListener('DOMContentLoaded', () => {
 		ctx.drawImage(backgroundTrees, 0, 0, fullWidth, fullHeight);
 		ctx.drawImage(backgroundVing, 0, 0, fullWidth, fullHeight);
 		
-		salutePosX = easeInOutSine(direction, 0, 180, iters) + 1250;
+		salutePosX = easeInOutSine(direction, 0, 60, iters) + 1250;
 		
 		ctx.drawImage(lennySalute, salutePosX, salutePosY, saluteWidth, saluteHeight);
 		ctx.drawImage(podium, salutePosX - 550, salutePosY + 200, podiumWidth, podiumHeight);
