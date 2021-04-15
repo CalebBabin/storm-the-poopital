@@ -120,35 +120,35 @@ const podiumSrc = require('./images/podium.png');
 const podium = new Image(podiumWidth, podiumHeight);
 podium.src = podiumSrc;
 
-const backgroundCitySrc0 = require('./images/Screenshot 2021-04-10 19-32-42_00000.png');
+const backgroundCitySrc0 = require('./images/Screenshot 2021-04-10 19-32-42_00000.webp');
 const backgroundCity0 = new Image(window.innerWidth, window.innerHeight);
 backgroundCity0.src = backgroundCitySrc0;
 
-const backgroundCitySrc1 = require('./images/Screenshot 2021-04-10 19-32-42_00001.png');
+const backgroundCitySrc1 = require('./images/Screenshot 2021-04-10 19-32-42_00001.webp');
 const backgroundCity1 = new Image(window.innerWidth, window.innerHeight);
 backgroundCity1.src = backgroundCitySrc1;
 
-const backgroundCitySrc2 = require('./images/Screenshot 2021-04-10 19-32-42_00002.png');
+const backgroundCitySrc2 = require('./images/Screenshot 2021-04-10 19-32-42_00002.webp');
 const backgroundCity2 = new Image(window.innerWidth, window.innerHeight);
 backgroundCity2.src = backgroundCitySrc2;
 
-const backgroundCitySrc3 = require('./images/Screenshot 2021-04-10 19-32-42_00003.png');
+const backgroundCitySrc3 = require('./images/Screenshot 2021-04-10 19-32-42_00003.webp');
 const backgroundCity3 = new Image(window.innerWidth, window.innerHeight);
 backgroundCity3.src = backgroundCitySrc3;
 
-const backgroundCitySrc4 = require('./images/Screenshot 2021-04-10 19-32-42_00004.png');
+const backgroundCitySrc4 = require('./images/Screenshot 2021-04-10 19-32-42_00004.webp');
 const backgroundCity4 = new Image(window.innerWidth, window.innerHeight);
 backgroundCity4.src = backgroundCitySrc4;
 
-const backgroundCitySrc5 = require('./images/Screenshot 2021-04-10 19-32-42_00005.png');
+const backgroundCitySrc5 = require('./images/Screenshot 2021-04-10 19-32-42_00005.webp');
 const backgroundCity5 = new Image(window.innerWidth, window.innerHeight);
 backgroundCity5.src = backgroundCitySrc5;
 
-const backgroundCitySrc6 = require('./images/Screenshot 2021-04-10 19-32-42_00006.png');
+const backgroundCitySrc6 = require('./images/Screenshot 2021-04-10 19-32-42_00006.webp');
 const backgroundCity6 = new Image(window.innerWidth, window.innerHeight);
 backgroundCity6.src = backgroundCitySrc6;
 
-const backgroundCitySrc7 = require('./images/Screenshot 2021-04-10 19-32-42_00007.png');
+const backgroundCitySrc7 = require('./images/Screenshot 2021-04-10 19-32-42_00007.webp');
 const backgroundCity7 = new Image(window.innerWidth, window.innerHeight);
 backgroundCity7.src = backgroundCitySrc7;
 
