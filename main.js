@@ -102,12 +102,12 @@ let directFlip = false;
 let bgIndex = 0;
 let bgCount = 0;
 
-let saluteWidth = 710 / 1 * 0.7;
-let saluteHeight = 916 / 1 * 0.7;
+let saluteWidth = 418 / 1 * 1.3;
+let saluteHeight = 596 / 1 * 1.3;
 let salutePosX = 0;
 let salutePosY = 440;
 
-const lennySaluteSrc = require('./images/salute.png');
+const lennySaluteSrc = require('./images/sheriff_lenny_big.png');
 const lennySalute = new Image(saluteWidth, saluteHeight);
 lennySalute.src = lennySaluteSrc;
 
@@ -426,7 +426,7 @@ window.addEventListener('DOMContentLoaded', () => {
 		ctx.drawImage(backgroundTrees, 0, 0, fullWidth, fullHeight);
 		ctx.drawImage(backgroundVing, 0, 0, fullWidth, fullHeight);
 		
-		salutePosX = easeInOutSine(direction, 0, 180, iters) + 1250;
+		salutePosX = easeInOutSine(direction, 0, 180, iters) + 1200;
 		
 		ctx.drawImage(lennySalute, salutePosX, salutePosY, saluteWidth, saluteHeight);
 		ctx.drawImage(podium, salutePosX - 550, salutePosY + 200, podiumWidth, podiumHeight);
